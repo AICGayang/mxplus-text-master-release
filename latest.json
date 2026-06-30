@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "title": "漫想+文本大师 V1.0.0",
+  "mandatory": false,
+  "notes_list": [
+    "首个基线版本，支持写小说与拆小说两条主流程。",
+    "新增授权激活与授权剩余时间倒计时。",
+    "支持 Windows、macOS Intel、macOS Apple Silicon 自动打包。",
+    "接入公开发布仓库，用于软件启动时检查更新。"
+  ],
+  "notes": "首个基线版本，支持写小说与拆小说两条主流程。\n新增授权激活与授权剩余时间倒计时。\n支持 Windows、macOS Intel、macOS Apple Silicon 自动打包。\n接入公开发布仓库，用于软件启动时检查更新。",
+  "url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.0",
+  "windows_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.0/MXPlus-Text-Master-v1.0.0-Windows-Setup.exe",
+  "macos_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.0",
+  "macos_intel_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.0/MXPlus-Text-Master-v1.0.0-macOS-Intel.dmg",
+  "macos_apple_silicon_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.0/MXPlus-Text-Master-v1.0.0-macOS-Apple-Silicon.dmg",
+  "published_at": "2026-06-30T02:13:07.623Z"
+}
