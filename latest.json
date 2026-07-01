@@ -1,19 +1,19 @@
 {
-  "version": "1.0.0",
-  "tag": "v1.0.0",
-  "title": "漫想+文本大师 V1.0.0",
-  "mandatory": false,
+  "version": "1.0.1",
+  "tag": "v1.0.1",
+  "title": "漫想+文本大师 V1.0.1",
+  "mandatory": true,
   "notes_list": [
-    "首个基线版本，支持写小说与拆小说两条主流程。",
-    "新增授权激活与授权剩余时间倒计时。",
-    "支持 Windows、macOS Intel、macOS Apple Silicon 自动打包。",
-    "接入公开发布仓库，用于软件启动时检查更新。"
+    "修复正式安装包缺少本地后端的问题，打开软件后会自动启动后端服务。",
+    "后端数据改为保存到系统应用数据目录，减少升级或重装后配置丢失的风险。",
+    "新增后端启动日志，便于排查健康检查失败、杀毒软件拦截等问题。",
+    "优化 GitHub Actions 打包流程，Windows 和 macOS 安装包都会随包携带对应后端程序。"
   ],
-  "notes": "首个基线版本，支持写小说与拆小说两条主流程。\n新增授权激活与授权剩余时间倒计时。\n支持 Windows、macOS Intel、macOS Apple Silicon 自动打包。\n接入公开发布仓库，用于软件启动时检查更新。",
-  "url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.0",
-  "windows_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.0/MXPlus-Text-Master-v1.0.0-Windows-Setup.exe",
-  "macos_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.0",
-  "macos_intel_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.0/MXPlus-Text-Master-v1.0.0-macOS-Intel.dmg",
-  "macos_apple_silicon_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.0/MXPlus-Text-Master-v1.0.0-macOS-Apple-Silicon.dmg",
-  "published_at": "2026-06-30T02:13:07.623Z"
+  "notes": "修复正式安装包缺少本地后端的问题，打开软件后会自动启动后端服务。\n后端数据改为保存到系统应用数据目录，减少升级或重装后配置丢失的风险。\n新增后端启动日志，便于排查健康检查失败、杀毒软件拦截等问题。\n优化 GitHub Actions 打包流程，Windows 和 macOS 安装包都会随包携带对应后端程序。",
+  "url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.1",
+  "windows_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.1/MXPlus-Text-Master-v1.0.1-Windows-Setup.exe",
+  "macos_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.1",
+  "macos_intel_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.1/MXPlus-Text-Master-v1.0.1-macOS-Intel.dmg",
+  "macos_apple_silicon_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.1/MXPlus-Text-Master-v1.0.1-macOS-Apple-Silicon.dmg",
+  "published_at": "2026-07-01T12:36:30.882Z"
 }
