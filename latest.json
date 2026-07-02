@@ -1,19 +1,38 @@
 {
-  "version": "1.0.1",
-  "tag": "v1.0.1",
-  "title": "漫想+文本大师 V1.0.1",
+  "version": "1.0.2",
+  "tag": "v1.0.2",
+  "title": "漫想+文本大师 V1.0.2",
   "mandatory": true,
   "notes_list": [
-    "修复正式安装包缺少本地后端的问题，打开软件后会自动启动后端服务。",
-    "后端数据改为保存到系统应用数据目录，减少升级或重装后配置丢失的风险。",
-    "新增后端启动日志，便于排查健康检查失败、杀毒软件拦截等问题。",
-    "优化 GitHub Actions 打包流程，Windows 和 macOS 安装包都会随包携带对应后端程序。"
+    "# 漫想+文本大师 V1.0.2",
+    "## 更新内容",
+    "新增 Windows 程序内静默更新能力，后续 Windows 版本可通过更新包安装并自动重启。",
+    "更新下载链接增加 gh-proxy.com 代理兜底，提升国内用户下载稳定性。",
+    "授权信息改为同时保存到本地后端数据库，减少版本升级或 WebView 数据变化导致的掉激活。",
+    "发布流程新增 windows-updater.json 和签名文件处理，兼容普通安装包下载与 Windows 热更新。"
   ],
-  "notes": "修复正式安装包缺少本地后端的问题，打开软件后会自动启动后端服务。\n后端数据改为保存到系统应用数据目录，减少升级或重装后配置丢失的风险。\n新增后端启动日志，便于排查健康检查失败、杀毒软件拦截等问题。\n优化 GitHub Actions 打包流程，Windows 和 macOS 安装包都会随包携带对应后端程序。",
-  "url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.1",
-  "windows_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.1/MXPlus-Text-Master-v1.0.1-Windows-Setup.exe",
-  "macos_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.1",
-  "macos_intel_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.1/MXPlus-Text-Master-v1.0.1-macOS-Intel.dmg",
-  "macos_apple_silicon_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.1/MXPlus-Text-Master-v1.0.1-macOS-Apple-Silicon.dmg",
-  "published_at": "2026-07-01T12:36:30.882Z"
+  "notes": "# 漫想+文本大师 V1.0.2\n\n## 更新内容\n\n- 新增 Windows 程序内静默更新能力，后续 Windows 版本可通过更新包安装并自动重启。\n- 更新下载链接增加 gh-proxy.com 代理兜底，提升国内用户下载稳定性。\n- 授权信息改为同时保存到本地后端数据库，减少版本升级或 WebView 数据变化导致的掉激活。\n- 发布流程新增 windows-updater.json 和签名文件处理，兼容普通安装包下载与 Windows 热更新。",
+  "url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.2",
+  "windows_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-Windows-Setup.exe",
+  "macos_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.2",
+  "macos_intel_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Intel.dmg",
+  "macos_apple_silicon_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Apple-Silicon.dmg",
+  "published_at": "2026-07-02T09:24:34.644Z",
+  "platforms": {
+    "windows-x86_64": {
+      "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-Windows-Setup.exe",
+      "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-Windows-Setup.exe",
+      "sha256": "CA38E2878CA41F6FAAEEE5217E42FB42AAD6014EE62DA673444CF69F99C4BA2B"
+    },
+    "darwin-x86_64": {
+      "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Intel.dmg",
+      "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Intel.dmg",
+      "sha256": "F2E4ECDC7E6A6D7BE227CBCBFD07BE774F7C5BA8C9BD45C913C000E29C92FB9B"
+    },
+    "darwin-aarch64": {
+      "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Apple-Silicon.dmg",
+      "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Apple-Silicon.dmg",
+      "sha256": "46AD6CDFAE5B9DF793BD64F791243D16C6AFD0B4136B3A2801A3DE63A5FCCEF4"
+    }
+  }
 }
