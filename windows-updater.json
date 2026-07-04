@@ -1,10 +1,10 @@
 {
   "version": "1.0.2",
   "notes": "# 漫想+文本大师 V1.0.2\n\n## 更新内容\n\n- 新增 Windows 程序内静默更新能力，后续 Windows 版本可通过更新包安装并自动重启。\n- 更新下载链接增加 gh-proxy.com 代理兜底，提升国内用户下载稳定性。\n- 授权信息改为同时保存到本地后端数据库，减少版本升级或 WebView 数据变化导致的掉激活。\n- 发布流程新增 windows-updater.json 和签名文件处理，兼容普通安装包下载与 Windows 热更新。",
-  "pub_date": "2026-07-02T09:24:34.724Z",
+  "pub_date": "2026-07-04T05:06:21.095Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdlRvZ3JsdWtOTjdKRHVoT040L25IcSt5OWs5dTd0cWgrcUpNN1pGcnRRN2tDcEE2aGZ3SGxaUkZlYmNocXcxejZtakNnS0NjZTZHelJSSStKeUNPUnIrUmhWTi9HUlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyOTg0MjU4CWZpbGU65ryr5oOzK+aWh+acrOWkp+W4iF8xLjAuMl94NjQtc2V0dXAuZXhlCkVVaVczTUl1TjBGbXU4R0U4ME8vQ3UvRjhvdkhMSVZ0Y0xTVVNvZWpNUmI2ZUYyWWVNM08rYlZsQ0lGR1hlL2toK0FxUnl4ZmJXZnA5YmdINkZxNUFBPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdlRvZ3JsdWtOTnhXUkRuTUhkYU5hUUZ1Zk10QjRpVk9tNEFSNGpNTHVHZldzRlF4MUIvVk1iWmdZRGt1c3E2RGxzdkxtUzFSMi9hM1UzWFNkNEtjbXlzaDFDdzJTeWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMTQxNTU5CWZpbGU65ryr5oOzK+aWh+acrOWkp+W4iF8xLjAuMl94NjQtc2V0dXAuZXhlCnZDOVRPRTlJUW1ET0xZUVdScWsrY3h3TXUvUE94YXpaZS9KQUQ0dDk3NERqWTl6UDBGc1RVdUxTMnBiQWsvM05Xb09XMEJ0d2lEZTgyTVlGbTZNeEJnPT0K",
       "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-Windows-Setup.exe"
     }
   }

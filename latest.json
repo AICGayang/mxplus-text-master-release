@@ -17,22 +17,22 @@
   "macos_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.2",
   "macos_intel_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Intel.dmg",
   "macos_apple_silicon_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Apple-Silicon.dmg",
-  "published_at": "2026-07-02T09:24:34.644Z",
+  "published_at": "2026-07-04T05:06:21.027Z",
   "platforms": {
     "windows-x86_64": {
       "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-Windows-Setup.exe",
       "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-Windows-Setup.exe",
-      "sha256": "CA38E2878CA41F6FAAEEE5217E42FB42AAD6014EE62DA673444CF69F99C4BA2B"
+      "sha256": "094FCFDD9EFAB6C137900E33E578F753C716C3D7FC99267669EDBCA5C028EA62"
     },
     "darwin-x86_64": {
       "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Intel.dmg",
       "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Intel.dmg",
-      "sha256": "F2E4ECDC7E6A6D7BE227CBCBFD07BE774F7C5BA8C9BD45C913C000E29C92FB9B"
+      "sha256": "61E95EEE8D11BF176F2EDC4B6D03FAB1E086BE5491BCB2F636C6DCF158106E06"
     },
     "darwin-aarch64": {
       "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Apple-Silicon.dmg",
       "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.2/MXPlus-Text-Master-v1.0.2-macOS-Apple-Silicon.dmg",
-      "sha256": "46AD6CDFAE5B9DF793BD64F791243D16C6AFD0B4136B3A2801A3DE63A5FCCEF4"
+      "sha256": "2DCECDD1E7D6311D50A0214BDAEB3747A646B41E6FAA424189590AB9654873CB"
     }
   }
 }
