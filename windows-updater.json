@@ -1,10 +1,10 @@
 {
   "version": "1.0.5",
-  "notes": "# 漫想+文本大师 V1.0.5\n\n## 更新内容\n\n- 修复写小说自动驾驶异常恢复链路：继续自动驾驶会彻底清理旧的错误阶段、熔断计数和上次错误。\n- 修复用户手动补写卡住章节后仍无法继续自动驾驶的问题，保存补写章节后可从下一章继续。\n- 修复自动驾驶日志序号重复导致右侧任务日志不刷新的问题，并兼容清洗旧日志序号。\n- 托管驾驶舱新增上次异常提示，失败原因会直接显示在自动驾驶状态区。\n- 优化章节分组视图，部、卷、幕、未归档章节支持收起展开，长标签显示更稳定。",
-  "pub_date": "2026-07-05T05:41:47.440Z",
+  "notes": "# 漫想+文本大师 V1.0.5\n\n## 更新内容\n\n- 修复写小说自动驾驶异常恢复链路：继续自动驾驶会彻底清理旧的错误阶段、熔断计数和上次错误。\n- 修复用户手动补写卡住章节后仍无法继续自动驾驶的问题，保存补写章节后可从下一章继续。\n- 修复自动驾驶日志序号重复导致右侧任务日志不刷新的问题，并兼容清洗旧日志序号。\n- 托管驾驶舱新增上次异常提示，失败原因会直接显示在自动驾驶状态区。\n- 优化章节分组视图，部、卷、幕、未归档章节支持收起展开，长标签显示更稳定。\n- 优化国内更新下载链路，GitHub 安装包下载默认走 gh-proxy.com 代理。",
+  "pub_date": "2026-07-05T09:46:54.830Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdlRvZ3JsdWtOTnkySThWNk8rVEJPdU82dVkwQXUxd2VvVERCOGJsNUVROUo3QXZaMFVhM21DVmZPNENHbzhxa3NlanBGWkl1SWNZeVptWVNRZWhMdHhQY1RWSkM5eWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjMwMDg3CWZpbGU65ryr5oOzK+aWh+acrOWkp+W4iF8xLjAuNV94NjQtc2V0dXAuZXhlCno2QUxXOGtrM0MzelB5QXhOOFlGWFY2M0cvaE1PR1YyVTA5aWxPVTVPS3BkQTlTRzRCUm4wYnd4QnA4cFYvc25YYitMOWxDQTA3alRNZ2RBQ0hPckNRPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdlRvZ3JsdWtOTjd6aWJZUHpaYTF5SHBTQzFIdDBPdlZZTXlMRDRvajFBLzA2a2U2SGJQWlZiRFNWNlJZNk5nNW4vYkZLUDU3VjdtQms3bzlPcTVVaFd4eGs0LzI4QmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjQ0Nzk2CWZpbGU65ryr5oOzK+aWh+acrOWkp+W4iF8xLjAuNV94NjQtc2V0dXAuZXhlCldRSUlFSnJsZkVXbkEzOFhhREdweVRpMy95VzY5elNqWjBNbHEzMjZua1hjNmt6VS9zYng1VUpsYm4yTTdjQzdzdWhIKzlEalY5SEplMkdadHZwbURRPT0K",
       "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-Windows-Setup.exe"
     }
   }

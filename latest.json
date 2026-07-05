@@ -10,30 +10,34 @@
     "修复用户手动补写卡住章节后仍无法继续自动驾驶的问题，保存补写章节后可从下一章继续。",
     "修复自动驾驶日志序号重复导致右侧任务日志不刷新的问题，并兼容清洗旧日志序号。",
     "托管驾驶舱新增上次异常提示，失败原因会直接显示在自动驾驶状态区。",
-    "优化章节分组视图，部、卷、幕、未归档章节支持收起展开，长标签显示更稳定。"
+    "优化章节分组视图，部、卷、幕、未归档章节支持收起展开，长标签显示更稳定。",
+    "优化国内更新下载链路，GitHub 安装包下载默认走 gh-proxy.com 代理。"
   ],
-  "notes": "# 漫想+文本大师 V1.0.5\n\n## 更新内容\n\n- 修复写小说自动驾驶异常恢复链路：继续自动驾驶会彻底清理旧的错误阶段、熔断计数和上次错误。\n- 修复用户手动补写卡住章节后仍无法继续自动驾驶的问题，保存补写章节后可从下一章继续。\n- 修复自动驾驶日志序号重复导致右侧任务日志不刷新的问题，并兼容清洗旧日志序号。\n- 托管驾驶舱新增上次异常提示，失败原因会直接显示在自动驾驶状态区。\n- 优化章节分组视图，部、卷、幕、未归档章节支持收起展开，长标签显示更稳定。",
+  "notes": "# 漫想+文本大师 V1.0.5\n\n## 更新内容\n\n- 修复写小说自动驾驶异常恢复链路：继续自动驾驶会彻底清理旧的错误阶段、熔断计数和上次错误。\n- 修复用户手动补写卡住章节后仍无法继续自动驾驶的问题，保存补写章节后可从下一章继续。\n- 修复自动驾驶日志序号重复导致右侧任务日志不刷新的问题，并兼容清洗旧日志序号。\n- 托管驾驶舱新增上次异常提示，失败原因会直接显示在自动驾驶状态区。\n- 优化章节分组视图，部、卷、幕、未归档章节支持收起展开，长标签显示更稳定。\n- 优化国内更新下载链路，GitHub 安装包下载默认走 gh-proxy.com 代理。",
   "url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.5",
-  "windows_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-Windows-Setup.exe",
+  "windows_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-Windows-Setup.exe",
   "macos_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.5",
-  "macos_intel_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Intel.dmg",
-  "macos_apple_silicon_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Apple-Silicon.dmg",
-  "published_at": "2026-07-05T05:41:47.372Z",
+  "macos_intel_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Intel.dmg",
+  "macos_apple_silicon_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Apple-Silicon.dmg",
+  "published_at": "2026-07-05T09:46:54.766Z",
   "platforms": {
     "windows-x86_64": {
       "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-Windows-Setup.exe",
       "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-Windows-Setup.exe",
-      "sha256": "4E9795174C4C3A6DE46FDD549931D3C07A365835B298A252979EDB383C9C6425"
+      "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-Windows-Setup.exe",
+      "sha256": "C7B3AD910D8268CCF1ED66F37E5FB0AF1DE80CCFB2A13079EAFE4F0130234C02"
     },
     "darwin-x86_64": {
       "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Intel.dmg",
       "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Intel.dmg",
-      "sha256": "C98481301218DC1C121C36DE0676C73973E6032EBCEAEBB15F7F88A1B1F46066"
+      "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Intel.dmg",
+      "sha256": "3315C7073FAEEE2C631C538EB4EABC3C693DE5EA16B9C205EDD064FE9A71F33B"
     },
     "darwin-aarch64": {
       "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Apple-Silicon.dmg",
       "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Apple-Silicon.dmg",
-      "sha256": "B76C9FA2B0DE7EE3FEFF85AEA2F6BBA68D6FD1815FBAA1AF72EA816B6558A8EB"
+      "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Apple-Silicon.dmg",
+      "sha256": "A7AE6835B56E085D74AE7E2EFDE5F2558E76AC9BE335057EFABB3C88EA03AA59"
     }
   }
 }
