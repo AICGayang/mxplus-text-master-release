@@ -1,11 +1,11 @@
 {
-  "version": "1.0.5",
-  "notes": "# 漫想+文本大师 V1.0.5\n\n## 更新内容\n\n- 修复写小说自动驾驶异常恢复链路：继续自动驾驶会彻底清理旧的错误阶段、熔断计数和上次错误。\n- 修复用户手动补写卡住章节后仍无法继续自动驾驶的问题，保存补写章节后可从下一章继续。\n- 修复自动驾驶日志序号重复导致右侧任务日志不刷新的问题，并兼容清洗旧日志序号。\n- 托管驾驶舱新增上次异常提示，失败原因会直接显示在自动驾驶状态区。\n- 优化章节分组视图，部、卷、幕、未归档章节支持收起展开，长标签显示更稳定。\n- 优化国内更新下载链路，GitHub 安装包下载默认走 gh-proxy.com 代理。",
-  "pub_date": "2026-07-05T09:46:54.830Z",
+  "version": "1.0.7",
+  "notes": "# 漫想+文本大师 V1.0.7\n\n## 更新内容\n\n- 优化拆小说分镜链路，新增每集必拆覆盖项，分镜生成时会按关键对白、动作、场景、道具和结论句逐项覆盖。\n- 修复模型返回合法 JSON 但 clips/shots 为空时导致任务失败的问题，连续空分镜会按覆盖项生成最小可用分镜骨架并继续任务。\n- 增强分镜覆盖审计，保留 coverage_ids、fallback_generated 和 needs_review 标记，方便后续检查哪些镜头来自兜底骨架。\n- 补充角色误识别过滤和尾部关键结论覆盖规则，降低句子被误当角色、章节后半段漏拆的概率。",
+  "pub_date": "2026-07-07T10:05:19.092Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdlRvZ3JsdWtOTjd6aWJZUHpaYTF5SHBTQzFIdDBPdlZZTXlMRDRvajFBLzA2a2U2SGJQWlZiRFNWNlJZNk5nNW4vYkZLUDU3VjdtQms3bzlPcTVVaFd4eGs0LzI4QmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMjQ0Nzk2CWZpbGU65ryr5oOzK+aWh+acrOWkp+W4iF8xLjAuNV94NjQtc2V0dXAuZXhlCldRSUlFSnJsZkVXbkEzOFhhREdweVRpMy95VzY5elNqWjBNbHEzMjZua1hjNmt6VS9zYng1VUpsYm4yTTdjQzdzdWhIKzlEalY5SEplMkdadHZwbURRPT0K",
-      "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-Windows-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdlRvZ3JsdWtOTjhoVzg1M1F3K1hTMllJL3NCbE84NXhvSGYvL2NlaTV5cno4MVJGSGF6WWZ6emZPamFCRldxVlNVMkRSMkZzS244ZU1DWXZSU0VNdFZXVlNPWXFGR1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNDE4Njk1CWZpbGU65ryr5oOzK+aWh+acrOWkp+W4iF8xLjAuN194NjQtc2V0dXAuZXhlCmVyaFdjaEdDN2xGS2RvYnp1dThWZDlQdllRaFJidHJZeUlwRElMZ3drUTVidnozK1FwYzBuU2RMdlJSN1dEcDZscEZqNnhpbFJucUk5YWFIdVp6NkNRPT0K",
+      "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-Windows-Setup.exe"
     }
   }
 }

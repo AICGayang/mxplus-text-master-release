@@ -1,43 +1,41 @@
 {
-  "version": "1.0.5",
-  "tag": "v1.0.5",
-  "title": "漫想+文本大师 V1.0.5",
+  "version": "1.0.7",
+  "tag": "v1.0.7",
+  "title": "漫想+文本大师 V1.0.7",
   "mandatory": true,
   "notes_list": [
-    "# 漫想+文本大师 V1.0.5",
+    "# 漫想+文本大师 V1.0.7",
     "## 更新内容",
-    "修复写小说自动驾驶异常恢复链路：继续自动驾驶会彻底清理旧的错误阶段、熔断计数和上次错误。",
-    "修复用户手动补写卡住章节后仍无法继续自动驾驶的问题，保存补写章节后可从下一章继续。",
-    "修复自动驾驶日志序号重复导致右侧任务日志不刷新的问题，并兼容清洗旧日志序号。",
-    "托管驾驶舱新增上次异常提示，失败原因会直接显示在自动驾驶状态区。",
-    "优化章节分组视图，部、卷、幕、未归档章节支持收起展开，长标签显示更稳定。",
-    "优化国内更新下载链路，GitHub 安装包下载默认走 gh-proxy.com 代理。"
+    "优化拆小说分镜链路，新增每集必拆覆盖项，分镜生成时会按关键对白、动作、场景、道具和结论句逐项覆盖。",
+    "修复模型返回合法 JSON 但 clips/shots 为空时导致任务失败的问题，连续空分镜会按覆盖项生成最小可用分镜骨架并继续任务。",
+    "增强分镜覆盖审计，保留 coverage_ids、fallback_generated 和 needs_review 标记，方便后续检查哪些镜头来自兜底骨架。",
+    "补充角色误识别过滤和尾部关键结论覆盖规则，降低句子被误当角色、章节后半段漏拆的概率。"
   ],
-  "notes": "# 漫想+文本大师 V1.0.5\n\n## 更新内容\n\n- 修复写小说自动驾驶异常恢复链路：继续自动驾驶会彻底清理旧的错误阶段、熔断计数和上次错误。\n- 修复用户手动补写卡住章节后仍无法继续自动驾驶的问题，保存补写章节后可从下一章继续。\n- 修复自动驾驶日志序号重复导致右侧任务日志不刷新的问题，并兼容清洗旧日志序号。\n- 托管驾驶舱新增上次异常提示，失败原因会直接显示在自动驾驶状态区。\n- 优化章节分组视图，部、卷、幕、未归档章节支持收起展开，长标签显示更稳定。\n- 优化国内更新下载链路，GitHub 安装包下载默认走 gh-proxy.com 代理。",
-  "url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.5",
-  "windows_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-Windows-Setup.exe",
-  "macos_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.5",
-  "macos_intel_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Intel.dmg",
-  "macos_apple_silicon_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Apple-Silicon.dmg",
-  "published_at": "2026-07-05T09:46:54.766Z",
+  "notes": "# 漫想+文本大师 V1.0.7\n\n## 更新内容\n\n- 优化拆小说分镜链路，新增每集必拆覆盖项，分镜生成时会按关键对白、动作、场景、道具和结论句逐项覆盖。\n- 修复模型返回合法 JSON 但 clips/shots 为空时导致任务失败的问题，连续空分镜会按覆盖项生成最小可用分镜骨架并继续任务。\n- 增强分镜覆盖审计，保留 coverage_ids、fallback_generated 和 needs_review 标记，方便后续检查哪些镜头来自兜底骨架。\n- 补充角色误识别过滤和尾部关键结论覆盖规则，降低句子被误当角色、章节后半段漏拆的概率。",
+  "url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.7",
+  "windows_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-Windows-Setup.exe",
+  "macos_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/tag/v1.0.7",
+  "macos_intel_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-macOS-Intel.dmg",
+  "macos_apple_silicon_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-macOS-Apple-Silicon.dmg",
+  "published_at": "2026-07-07T10:05:19.024Z",
   "platforms": {
     "windows-x86_64": {
-      "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-Windows-Setup.exe",
-      "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-Windows-Setup.exe",
-      "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-Windows-Setup.exe",
-      "sha256": "C7B3AD910D8268CCF1ED66F37E5FB0AF1DE80CCFB2A13079EAFE4F0130234C02"
+      "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-Windows-Setup.exe",
+      "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-Windows-Setup.exe",
+      "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-Windows-Setup.exe",
+      "sha256": "3C6E07C2C84EDB46FDA3DC5C2754D6041DE11DA3192C91ACFA25550E3B1C0424"
     },
     "darwin-x86_64": {
-      "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Intel.dmg",
-      "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Intel.dmg",
-      "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Intel.dmg",
-      "sha256": "3315C7073FAEEE2C631C538EB4EABC3C693DE5EA16B9C205EDD064FE9A71F33B"
+      "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-macOS-Intel.dmg",
+      "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-macOS-Intel.dmg",
+      "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-macOS-Intel.dmg",
+      "sha256": "5D6886BB155066AEA2705D3D6B1F9146418BF7F774B07B4D891E34A578746D1C"
     },
     "darwin-aarch64": {
-      "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Apple-Silicon.dmg",
-      "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Apple-Silicon.dmg",
-      "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.5/MXPlus-Text-Master-v1.0.5-macOS-Apple-Silicon.dmg",
-      "sha256": "A7AE6835B56E085D74AE7E2EFDE5F2558E76AC9BE335057EFABB3C88EA03AA59"
+      "installer_url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-macOS-Apple-Silicon.dmg",
+      "proxy_installer_url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-macOS-Apple-Silicon.dmg",
+      "url": "https://gh-proxy.com/https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-macOS-Apple-Silicon.dmg",
+      "sha256": "90B458E2EE02CB18016AC7BECAE9AE73F85ABD177176202764A1F173DDC386D7"
     }
   }
 }
