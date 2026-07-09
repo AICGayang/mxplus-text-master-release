@@ -1,11 +1,11 @@
 {
-  "version": "1.0.7",
-  "notes": "# 漫想+文本大师 V1.0.7\n\n## 更新内容\n\n- 优化拆小说分镜链路，新增每集必拆覆盖项，分镜生成时会按关键对白、动作、场景、道具和结论句逐项覆盖。\n- 修复模型返回合法 JSON 但 clips/shots 为空时导致任务失败的问题，连续空分镜会按覆盖项生成最小可用分镜骨架并继续任务。\n- 增强分镜覆盖审计，保留 coverage_ids、fallback_generated 和 needs_review 标记，方便后续检查哪些镜头来自兜底骨架。\n- 补充角色误识别过滤和尾部关键结论覆盖规则，降低句子被误当角色、章节后半段漏拆的概率。",
-  "pub_date": "2026-07-07T10:05:19.092Z",
+  "version": "1.0.9",
+  "notes": "# 漫想+文本大师 V1.0.9\n\n## 更新内容\n\n- 修复覆盖安装或本地后端残留时可能出现的前后端版本不一致问题，软件启动后会进行后端版本校验并给出明确诊断。\n- 优化桌面端后端启动流程，后端检查改为后台执行，避免因后端启动较慢导致软件黑屏卡住。\n- 修复写小说自动驾驶在章节规划阶段提示 planning-act 不可用的问题，并增强提示词包缺失时的兜底读取能力。\n- 新增自动驾驶诊断导出能力，便于定位用户现场的后端版本、自动驾驶状态和最近运行日志。\n- 更新 Windows/macOS 打包流程，确保后端提示词包随安装包一起封装，降低发布包前后端不一致风险。",
+  "pub_date": "2026-07-09T04:02:54.956Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdlRvZ3JsdWtOTjhoVzg1M1F3K1hTMllJL3NCbE84NXhvSGYvL2NlaTV5cno4MVJGSGF6WWZ6emZPamFCRldxVlNVMkRSMkZzS244ZU1DWXZSU0VNdFZXVlNPWXFGR1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNDE4Njk1CWZpbGU65ryr5oOzK+aWh+acrOWkp+W4iF8xLjAuN194NjQtc2V0dXAuZXhlCmVyaFdjaEdDN2xGS2RvYnp1dThWZDlQdllRaFJidHJZeUlwRElMZ3drUTVidnozK1FwYzBuU2RMdlJSN1dEcDZscEZqNnhpbFJucUk5YWFIdVp6NkNRPT0K",
-      "url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.7/MXPlus-Text-Master-v1.0.7-Windows-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSdlRvZ3JsdWtOTjZRWkRwNWpxUUV3KzJDdFhkSWNaVCtLM0lJVWp1eHZnbnppR09VUk50TGc4bGEycWo1em01Rlo2Wk1BRk9BU1RFb0JBMjV0S2tMVUd4VDQza0JmUFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzNTY5NzU3CWZpbGU65ryr5oOzK+aWh+acrOWkp+W4iF8xLjAuOV94NjQtc2V0dXAuZXhlCm1RVnNMeEllVUxjdjNtSU9oQWhaSFpOMjlYcml2TWlxZFFWYVZoQlB6TTF1RmtXNnF1aUUzUjRqcW9yVzZuaWcwbGdsaTlyREdTTkRWT1ppQUE1V0F3PT0K",
+      "url": "https://github.com/AICGayang/mxplus-text-master-release/releases/download/v1.0.9/%E6%BC%AB%E6%83%B3%E6%96%87%E6%9C%AC%E5%A4%A7%E5%B8%88-%E7%89%88%E6%9C%AC1.0.9-%E5%AE%89%E8%A3%85%E5%8C%85.exe"
     }
   }
 }
